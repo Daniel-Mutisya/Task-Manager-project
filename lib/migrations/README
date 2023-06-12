@@ -1,1 +1,47 @@
 Generic single-database configuration.
+
+Task Manager
+The Task Manager is a simple application that allows you to manage tasks and managers. It provides functionality to add, update, and delete tasks, as well as add, update, and delete managers. Each task can be associated with a manager, and tasks can have comments.
+
+Features
+Add new tasks with a title, description, status, and due date.
+Update existing tasks, including their title, description, status, and due date.
+Delete tasks.
+Add new managers with a name and description.
+Update existing managers, including their name and description.
+Delete projects.
+Associate tasks with managers.
+Add comments to tasks.
+Installation
+Clone the repository:
+bash
+Copy code
+git clone https://github.com/your-username/Task-Manager.git
+Change into the project directory:
+arduino
+Copy code
+cd Task-Manager
+Install the required dependencies:
+Copy code
+pip install -r requirements.txt
+Set up the database:
+Copy code
+python database_setup.py
+This will create a SQLite database file named task_manager.db in the project directory.
+
+Usage
+Run the task_manager.py script to interact with the Task Manager application:
+Copy code
+python task_manager.py
+Follow the prompts in the command-line interface to perform various actions, such as adding tasks, updating tasks, deleting tasks, adding projects, updating projects, deleting projects, associating tasks with projects, and adding comments to tasks.
+
+The application will provide feedback on the executed actions and display the relevant information.
+
+License
+This project is licensed under the MIT License.
+
+Contributing
+Contributions are welcome! If you have any ideas, suggestions, or improvements, please open an issue or submit a pull request.
+
+Contact
+For any inquiries or questions, please feel free to contact me at danielmutisya203@gmail.com.
